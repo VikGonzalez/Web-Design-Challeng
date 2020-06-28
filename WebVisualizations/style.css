@@ -1,0 +1,124 @@
+body  {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'MuseoModerno', cursive;
+}
+
+h1 {
+    font-size: 66px; 
+    font-weight: 600px; 
+    line-height: 180px;
+}
+
+h2 {
+    font-size: 48px; 
+    font-weight: 30px; 
+    line-height: 80px;
+}
+
+
+p {
+    font-size: 18px;
+    color: grey;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+section {
+    padding: 120px 0;
+}
+
+.bg-light-grey {background-color: white}
+
+.topmargin-xs {margin-top: 15px;}
+.topmargin-sm {margin-top: 30px;}
+.topmargin-lg {margin-top: 60px;}
+
+.button {
+    font-size: 20px;
+    padding: 55px 25px;
+    min-width: 160px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.button-light {
+    background-color: whitesmoke;
+    color: purple;
+    border: white 2px;
+    padding: 10px;
+    margin-top: initial;
+
+}
+
+.button i {
+    font: 10px; 
+    margin-left: 5px;
+}
+
+
+.navbar {
+    background-color: white;
+    box-shadow:0 2px grey;
+    min-height: 100px;
+}
+
+.nav-link { color: darkblue;}
+.nav-link:hover { color: darkblue;}
+
+.logo {
+    min-width: 20px;
+    min-height: 40px;
+}
+
+.navbar-toggler { font-size: 30px;}
+.navbar-toggler:focus { outline: none;}
+
+#weather {
+    background-image: url("Resources/weather.jpg");
+    background-size: cover ;
+    padding-top: 80px;
+    min-height: 500px;
+    color: whitesmoke;
+}
+
+#weather {
+    color: whitesmoke;
+}
+
+#comparison-container img {
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#comparison-container {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.comparison-container :hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.comparison-details h2 {
+    margin-bottom: 0px;
+}
+
+
+@media (max-width: 575px) {
+    h1 {font-size: 40px; line-height: normal;}
+}
+
+
+
+
+
+
+
