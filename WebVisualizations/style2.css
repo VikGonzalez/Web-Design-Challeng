@@ -1,0 +1,210 @@
+/* SET FONTS */
+body  {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* SET HEADER */
+h1 {
+    font-size: 30px;
+    /* text-align: left; */
+    margin-bottom: 2px;
+    text-decoration: initial;
+    color: whitesmoke;
+    text-emphasis: none;
+    font-weight: 600px;
+    line-height: 80px;
+}
+
+/* SET HEADER 2 */
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 30px;
+    line-height: 80px;
+    color: red;
+}
+
+/* SET PARAGRAPHS */
+p {
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    line-height: 4.8;
+    margin-bottom: 0;
+}
+
+ul {
+    text-align: center;
+    font-size: 35px;
+    list-style-position: inside;
+    border-style: none;
+    border-width: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+section {
+    padding: 120px 0;
+}
+
+.bg-light-grey {background-color: white}
+.topmargin-xs {margin-top: 15px;}
+.topmargin-sm {margin-top: 30px;}
+.topmargin-lg {margin-top: 60px;}
+
+/* CREATE & SET BUTTON */
+.button {
+    font-size: 20px;
+    padding: 55px 25px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+/* CREATE & SET LIGHT BUTTON */
+.button-light {
+    background-color: whitesmoke;
+    color: purple;
+    border: white 2px;
+    padding: 2px;
+    margin-top: initial;
+}
+
+/* CREATE AND SET FONTS FOR EVERY ICON INSIDE A BUTTON */
+.button i {
+    font: 10px;
+    margin-left: 5px;
+}
+
+/* TURN TEX INTO BLACK */
+.text-dark {
+    color: black;
+}
+
+/* CREATE & SET CLASS NAVBAR */
+/* .navbar {
+    /* background-color: lavender;
+    box-shadow:0 2px 4px 0 grey; */
+    /* min-height: 50px;
+    align-content: unset;
+    text-align: left;
+} */
+
+/* CREATE & SET NAVLINK */
+.nav-link { color: black;}
+.nav-link :hover { color: darkblue;}
+
+/* CREATE AND SET LOGO BRAND */
+.logo-brand {
+    min-width: 150px;
+    padding: 10px 0;
+}
+
+/* CREATE AND SET NAVBAR TOGGLER FOR MOBILE DEVICES */
+.navbar-toggler { font-size: 30px;}
+.navbar-toggler:focus { outline: none;}
+
+/* CREATE & SET HERO  */
+#hero {
+    background-image: url("Resources/weather.jpg");
+    background-size: cover ;
+    padding-top: 90px;
+    min-height: 700px;
+    color: whitesmoke;
+}
+
+/* SET HERO FONT */
+#hero p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+/* CREATE & SET CONTENT CLASS */
+.content-center {
+    max-width: 800px;
+    margin: 0 15 20px auto;
+    text-align: left;
+    text-emphasis-style: bold ;
+    color: ivory;
+}
+
+/* CREATE & SET COMPARISON CONTAINER */
+.comparison-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.comparison-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+/* SET IMAGE TRANSITION */
+.comparison-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+/* SET IMAGE EFFECT */
+.comparison-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+.comparison-details h2 {
+    margin-bottom: 40px;
+}
+
+.comparison-details a h2, .comparison-details a p {
+    color: rgb(104, 18, 61);
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/* IMPORT AND SET BOOTSTRAP MEDIA QUERIES */
+@media (max-width: 575px) {
+    h1 {font-size: 40px; line-height: normal;}
+    .comparison-details h2 { font-size: 32px;}
+    .plots { min-width: unset; padding: 40px;}
+}
+
+@media (max-width: 575px) {
+    h1 {font-size: 40px; line-height: normal;}
+    .comparison-details h2 { font-size: 32px;}
+    .plots { min-width: unset; padding: 40px 20px;}
+}
+
+@media (max-width: 767px) {
+    h1 {font-size: 40px; line-height: normal;}
+    .comparison-details h2 { font-size: 32px;}
+    .plots { min-width: unset; padding: 40px 20px;}
+}
+
+@media (max-width: 991px) {
+    h1 {font-size: 40px; line-height: normal;}
+    .comparison-details h2 { font-size: 32px;}
+    .plots { min-width: unset; padding: 40px 20px;}
+}
+
+@media (max-width: 575px) {
+    h1 {font-size: 40px; line-height: normal;}
+    .comparison-details h2 { font-size: 32px;}
+    .plots { min-width: unset; padding: 40px;}
+}
