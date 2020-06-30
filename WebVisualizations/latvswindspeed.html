@@ -1,0 +1,140 @@
+<!-- IMPORT BOOTSTRAP LAY OUT STARTER-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link
+        rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Import Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
+        <!-- Link Style Sheet -->
+        <link rel="stylesheet" href="style.css">
+        <title>Global Weather</title>
+    </head>
+    <body>
+
+        <!-- Import Navbar from Bootstrap -->
+        <!-- Set dark navbar -->
+        <!-- Stick Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top sps sps--abv">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"> 
+                    <img class="logo" src="Resources/Latitude-logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Set Pages -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">Comparison</a>
+                        </li>
+                        <!-- Set Dropdown Page Menu -->
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="latvstemperature.html">Lat vs Temperature</a>
+                                <a class="dropdown-item" href="latvshumidity.html">Lat vs Humidity</a>
+                                <a class="dropdown-item" href="latvscloudiness.html">Lat vs Cloudiness</a>
+                                <a class="dropdown-item" href="latvswindspeed.html">Lat vs Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <h1>Global Weather</h1>
+        <h2>This is a representative analysis of global weather based on distance from equator latitude</h2> -->
+
+        <!-- Set Main Section -->
+        <main>
+
+                        <!-- Set Summary -->
+                        <section class="height-top-down"></section>
+                        <div class="container">
+                            <div class="row">
+        
+                                <div class="col-12 col-sm-6">
+                                    <img class="img-fluid w-100 shadow-lg"  src="Resources/Plot4.png" alt="Screen">
+                                </div>
+        
+                                <div class="col-12 col-sm-6">
+                                    <h2>Wind Speed</h2>
+                                    <p>As expected, the weather becomes sifgificantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the lift of the earth at this time of the year this data was gathered.</p>
+                                </div>
+                            </div>
+                        </div>   
+                    </section>
+                </main>  
+
+            <section class="height-top-down">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 col-sm-3 w-100 shadow-lg text-center">
+                             <img class="img-fluid" src="Resources/Plot1.png" alt="Max Temperature">
+                             <h5>Latitude vs Temperature</h5>
+                             <p>Details</p>
+                        </div>
+                        <div class="col-12 col-sm-3 w-100 shadow-lg text-center">
+                            <img class="img-fluid" src="Resources/Plot2.png" alt="Max Temperature">
+                            <h5>Latitude vs Humidity</h5>
+                            <p>Details</p>
+                        </div>
+                        <div class="col-12 col-sm-3 w-100 shadow-lg text-center">
+                            <img class="img-fluid" src="Resources/Plot3.png" alt="Max Temperature">
+                            <h5>Latitude vs Cloudiness</h5>
+                            <p>Details</p>
+                        </div>
+                        <div class="col-12 col-sm-3 w-100 shadow-lg text-center">
+                            <img class="img-fluid" src="Resources/Plot4.png" alt="Max Temperature">
+                            <h5>Latitude vs Wind Speed</h5>
+                            <p>Details</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          
+
+        <!-- Set Footer -->
+        <!-- Include Social Media Icons -->
+        <section class="height-top-down"></section>
+        <footer>
+            <img class="logo-footer" src="Resources/Latitude-logo.png" alt="logo">
+            <br>
+            <img class="iconsSM" src="Resources/facebook-logo-button.svg" alt="Facebook">
+            <img class="iconsSM" src="Resources/instagram-logo.svg" alt="Instagram">
+            <img class="iconsSM" src="Resources/twitter-logo-button.svg" alt="Twitter">
+            <br> 
+            <p>Images retrieved from Pexels.com</p>
+        </footer>
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+        <!-- Set MEnu Scroll -->
+        <script src="Resources/js/scrollPosStyler.min.js"></script>
+    </body>
+</html>
